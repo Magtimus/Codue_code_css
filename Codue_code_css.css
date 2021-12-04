@@ -1,0 +1,125 @@
+/*
+.et-menu-nav{
+	background: red;
+}
+.et-menu-nav ul{
+	background: yellow;
+	align-items: center;
+}
+
+
+.et-menu-nav > ul > li{
+	background: blue;
+	*padding-top: 10px;
+	top: -8px;
+	height: 100%;
+	display: flex;
+}
+
+.et_pb_menu_0_tb_header.et_pb_menu ul li a{
+	margin-top: 16px;
+	padding-bottom: 0px;
+}
+
+*/
+
+
+.et_pb_fullwidth_menu_0_tb_header.et_pb_fullwidth_menu {
+    height: 70px;
+}
+
+.et_pb_fullwidth_menu--without-logo .et_pb_menu__menu>nav>ul>li {
+    margin-top: -5px;
+	height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -30px;
+	transition: all 300ms;
+	cursor: pointer;
+}
+
+.et_pb_fullwidth_menu--without-logo .et_pb_menu__menu>nav>ul>li:first-child a {
+	width: 40px;
+	height: 45px;
+   background-image: url("https://codue.org/wp-content/uploads/2021/12/home.png");
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+    top: -17px;
+}
+
+
+
+.et_pb_fullwidth_menu--without-logo .et_pb_menu__menu>nav>ul>li:hover {
+    background: #0074C7;
+	    box-shadow: 0px 0px 10px 3px rgb(0,0,0,0.2);
+}
+
+.et_pb_fullwidth_menu--without-logo .et_pb_menu__menu>nav>ul>li>a {
+    display: -ms-flexbox;
+    /* display: flex; */
+    -ms-flex-align: center;
+    /* align-items: center; */
+    padding-bottom: 0px;
+    /* white-space: nowrap; */
+}
+
+.nav li li {
+	width: 105%;
+	margin-left: -6px;
+	transition: all 300ms;
+}
+
+
+.nav li li:hover {
+    background: #0074C7;
+	box-shadow: 0px 0px 10px 5px rgb(0,0,0,0.2);
+}
+
+.et_pb_fullwidth_menu_0_tb_header.et_pb_fullwidth_menu .nav li ul.sub-menu li:hover a {
+    color: #fff!important;
+	opacity: 1;
+}
+
+.et_pb_fullwidth_menu_0_tb_header.et_pb_fullwidth_menu .nav li ul.sub-menu{
+	box-shadow: 0px 0px 10px 5px rgb(0,0,0,0.2);
+}
+
+.et_pb_fullwidth_menu_0_tb_header.et_pb_fullwidth_menu .nav li ul.sub-menu:before {
+    content: '';
+	width: 0;
+	height: 0;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: 8px solid #fff;
+	position: absolute;
+	margin-top: -31px;
+	margin-left: 20px;
+}
+
+
+nav.et-menu-nav > ul > li > a > ul.sub-menu>li>a{
+	color: #023877!important;
+	background: transparent;
+}
+
+.et_mobile_menu li a:hover, .nav ul li a:hover {
+     background-color: transparent; 
+    opacity: 1;
+}
+
+.et_pb_search_0_tb_header input.et_pb_searchsubmit {
+     font-size: 5px;
+    color: transparent !important;
+    background-image: url(https://codue.org/wp-content/uploads/2021/12/search-1.png);
+    border-color: #FFFFFF!important;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+.et_pb_search.et_pb_text_align_center .et_pb_searchsubmit, .et_pb_search.et_pb_text_align_left .et_pb_searchsubmit {
+    right: 10px;
+}
